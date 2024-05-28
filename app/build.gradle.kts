@@ -32,6 +32,9 @@ dependencies {
 
     implementation("io.arrow-kt:arrow-core:1.2.4")
     implementation("io.arrow-kt:arrow-fx-coroutines:1.2.4")
+    implementation("org.eclipse.jgit:org.eclipse.jgit.ssh.apache:6.9.0.202403050737-r")
+    implementation("org.eclipse.jgit:org.eclipse.jgit:6.9.0.202403050737-r")
+    implementation("io.ktor:ktor-serialization-kotlinx-xml-jvm:2.3.11")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
